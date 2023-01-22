@@ -1,0 +1,17 @@
+@media (max-width: 767px) {
+        .SchoolHide {
+          display: none;
+        }
+      }
+.SchoolHide {
+    margin-left: 40%;
+    font-family: fantasy;
+}
+.nav-link{
+    color: black;
+    font-family: "Arial, Helvetica, sans-serif";
+    font-size: 25px;
+}
+.nav-link:hover{
+    color: black;
+}
