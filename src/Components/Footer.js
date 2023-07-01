@@ -6,7 +6,16 @@ export default function Footer() {
   return (
     <footer class="bg-dark text-center text-white">
       <div class="container p-4 pb-0">
-        <section class="mb-4">
+        <h1 style={{ fontFamily: "Arial, Helvetica, sans-serif;" }}>
+          The PC High School - TPHS
+        </h1>
+      </div>
+
+      <div
+        class="text-center p-3"
+        style={{ backgroundColor: `rgba(${0}, ${0}, ${0}, ${0.2})` }}
+      >
+        <section class="">
           <a
             href={"https://www.facebook.com/thepchighschool/"}
             class="btn btn-outline-light btn-floating m-1"
@@ -17,9 +26,7 @@ export default function Footer() {
           </a>
           <a
             class="btn btn-outline-light btn-floating m-1"
-            href={
-              "https://www.instagram.com/thepchighschooltphs/"
-            }
+            href={"https://www.instagram.com/thepchighschooltphs/"}
             role="button"
             target="_blank"
           >
@@ -27,15 +34,10 @@ export default function Footer() {
           </a>
         </section>
       </div>
-
-      <div
-        class="text-center p-3"
-        style={{ backgroundColor: `rgba(${0}, ${0}, ${0}, ${0.2})` }}
-      >
-        © 2020 Copyright:
-        <a class="text-white" href="https://mdbootstrap.com/">
-          MDBootstrap.com
-        </a>
+      <div class="container p-4 pb-0">
+        <p style={{ fontFamily: "Arial, Helvetica, sans-serif;" }}>
+          Copyright © 2023 The PC High School - TPHS. All rights reserved.
+        </p>
       </div>
     </footer>
   );
