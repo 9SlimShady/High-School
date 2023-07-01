@@ -1,11 +1,11 @@
 import "./App.css";
 import Footer from "./Components/Footer";
-import Navbar from "./Components/Navbar";
+import NavSource from "./Components/Navs/NavSource";
 
 function App() {
   return (
     <div>
-    <Navbar/>
+    <NavSource/>
     <Footer/>
     </div>
     

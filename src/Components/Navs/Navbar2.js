@@ -1,40 +1,15 @@
 import React from "react";
 import logo from "../Images/1.JPG";
-import "./CSS/Navbar.css";
-import { BsFacebook } from "react-icons/bs";
-import { BsInstagram } from "react-icons/bs";
-export default function Navbar() {
+import "../CSS/Navbar.css";
+
+export default function Navbar2() {
   return (
     <div>
-        <div
-        class=""
-        style={{ backgroundColor: "black" }}
-      >
-        <div className="container"><section class="">
-          <a
-            href={"https://www.facebook.com/thepchighschool/"}
-            class="btn btn-outline-light btn-floating m-1"
-            target="_blank"
-            role="button"
-          >
-            <BsFacebook />
-          </a>
-          <a
-            class="btn btn-outline-light btn-floating m-1"
-            href={"https://www.instagram.com/thepchighschooltphs/"}
-            role="button"
-            target="_blank"
-          >
-            <BsInstagram />
-          </a>
-        </section></div>
-        
-      </div>
       <nav
         className="navbar navbar-expand-lg"
         style={{ backgroundColor: "#E4CB0E" }}
       >
-        <div className="container-fluid">
+        <div className="container">
           <img src={logo} style={{ width: 75 }} alt="logo" />
           <h2 className="SchoolHide">THE PC HIGH SCHOOL</h2>
           <button
