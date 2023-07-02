@@ -1,8 +1,9 @@
 import React from "react";
 import logo from "../Images/1.JPG";
 import "../CSS/Navbar.css";
-
+import { BsSearch } from "react-icons/bs";
 export default function Navbar2() {
+ 
   return (
     <div>
       <nav
@@ -11,7 +12,7 @@ export default function Navbar2() {
       >
         <div className="container">
           <img src={logo} style={{ width: 75 }} alt="logo" />
-          <h2 className="SchoolHide">THE PC HIGH SCHOOL</h2>
+
           <button
             className="navbar-toggler"
             type="button"
@@ -23,21 +24,21 @@ export default function Navbar2() {
 
           <div className="collapse navbar-collapse" id="navmenu">
             <ul className="navbar-nav ms-auto">
-              <li className="nav-item">
-                <a href="#products" className="nav-link">
-                  Products
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href="#services" className="nav-link">
-                  Services
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href="#contact" className="nav-link">
-                  Contact
-                </a>
-              </li>
+              <div class="input-group rounded">
+                <input
+                  style={{outline:"none"}}
+                  type="search"
+                  class="form-control rounded"
+                  placeholder="Search"
+                  aria-label="Search"
+                  aria-describedby="search-addon"
+                  id="search"
+                />
+
+                <button class="input-group-text border-0" id="search-addon">
+                  <BsSearch />
+                </button>
+              </div>
             </ul>
           </div>
         </div>
