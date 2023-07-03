@@ -3,7 +3,6 @@ import logo from "../Images/1.JPG";
 import "../CSS/Navbar.css";
 import { BsSearch } from "react-icons/bs";
 export default function Navbar2() {
- 
   return (
     <div>
       <nav
@@ -12,7 +11,9 @@ export default function Navbar2() {
       >
         <div className="container">
           <img src={logo} style={{ width: 75 }} alt="logo" />
-
+          <h4 style={{ fontFamily: "Arial, Helvetica, sans-serif", fontWeight:"bold" }}>
+            The PC High School - TPHS
+          </h4>
           <button
             className="navbar-toggler"
             type="button"
@@ -26,7 +27,7 @@ export default function Navbar2() {
             <ul className="navbar-nav ms-auto">
               <div class="input-group rounded">
                 <input
-                  style={{outline:"none"}}
+                  style={{ outline: "none" }}
                   type="search"
                   class="form-control rounded"
                   placeholder="Search"

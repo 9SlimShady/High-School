@@ -1,9 +1,10 @@
 import React from "react";
 import "../CSS/Navbar3.css";
 export default function Navbar3() {
+  
   return (
     <>
-      <nav style={{ backgroundColor: "black" }} class="navbar navbar-expand-sm">
+      { <nav style={{ backgroundColor: "black" }} class="navbar navbar-expand-sm">
         <div className="container">
           <button
             type="button"
@@ -63,7 +64,7 @@ export default function Navbar3() {
                   </a>
                 </div>
               </div>
-              <div class="dropdown">
+              <div style={{marginLeft:"180%"}} class="dropdown2">
                 
                 <button
                 style={{color:"white", textAlign:"right"}}
@@ -96,7 +97,7 @@ export default function Navbar3() {
             </div>
           </div>
         </div>
-      </nav>
+      </nav>}
     </>
   );
 }
