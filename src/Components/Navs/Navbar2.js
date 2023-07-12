@@ -11,8 +11,13 @@ export default function Navbar2() {
       >
         <div className="container">
           <img src={logo} style={{ width: 75 }} alt="logo" />
-          <h4 style={{ fontFamily: "Arial, Helvetica, sans-serif", fontWeight:"bold" }}>
-            The PC High School - TPHS
+          <h4
+            style={{
+              fontFamily: "Arial, Helvetica, sans-serif",
+              fontWeight: "bold",
+            }}
+          >
+            TPHS
           </h4>
           <button
             className="navbar-toggler"
@@ -20,7 +25,9 @@ export default function Navbar2() {
             data-bs-toggle="collapse"
             data-bs-target="#navmenu"
           >
-            <span className="navbar-toggler-icon">-</span>
+            <span className="navbar-toggler-icon">
+              <BsSearch style={{ color: "black" }} />
+            </span>
           </button>
 
           <div className="collapse navbar-collapse" id="navmenu">

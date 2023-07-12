@@ -1,8 +1,9 @@
 import React from "react";
-import logo from "../Images/1.JPG";
+import logo from "./Images/1.JPG";
 import "./CSS/Navbar.css";
 import { BsFacebook } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
+import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <div>
@@ -48,6 +49,9 @@ export default function Navbar() {
 
           <div className="collapse navbar-collapse" id="navmenu">
             <ul className="navbar-nav ms-auto">
+              <li className="nav-item">
+                <Link to="/blogs" className="nav-link">Blogs</Link>
+              </li>
               <li className="nav-item">
                 <a href="#products" className="nav-link">
                   Products
